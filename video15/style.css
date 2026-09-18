@@ -1,0 +1,10 @@
+h1{
+            color: red;
+            text-align: center;
+            background-color: rgb(233, 233, 33);
+        }
+        p{
+            color: blue;
+            font-size: 20px;
+            background-color: seagreen;
+        }
