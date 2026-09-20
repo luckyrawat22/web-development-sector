@@ -5,18 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        h{
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        
+      @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;800&display=swap');
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
        p{
-       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       /*font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+       font-family: "Baloo Bhai 2", sans-serif;
+      /*font-style:italic ;  
+       font-weight: bold;
+       text-decoration : underline;*/
+       font-size: 20px;
+       }
+       h2{
+        text-transform: capitalize;
+        color: rgb(2, 19, 19);
+        text-decoration: underline;
+        text-decoration-style: dotted;
+        text-decoration-thickness: 7px;
+        text-indent: 4px;
+        text-overflow:ellipsis;
+         
+       }.lorem{
+        border-color: solid black;
+        text-overflow: clip;
+        width: 45px;
        }
        </style>
+    
 </head>
 <body>
     <div class="container">
         <h1>Fonts</h1>
-        <p>This is a video on fonts</p>
+        <h2>
+            <p>This is a video on fonts</p>
+        </h2>
+        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem praesentium, ut ipsam distinctio repellendus libero ex, omnis odio debitis accusantium, accusamus eos numquam minima doloribus tempore id eligendi facilis. Velit.</p>
     </div>
 </body>
 </html>
