@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS selectors</title>
     <style>
         div{
             /* background-color: rgb(239, 18, 18); */
@@ -12,13 +12,51 @@
             background-color: rgb(239, 18, 18);
         }
         #blue{
-            background-color: rgb(18, 18, 239);
+            background-color: rgb(18, 18, 239);  
+        }
+        div > p{
+            color: bisque;
+            background-color: rgb(18, 239, 18);
+        }
+        div p{
+            color: bisque;
+            background-color: rgb(18, 239, 18);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a:visited{
+            color: rgb(222, 168, 51);
+            text-decoration: none;
+        }
+        a:link{
+            color: rgb(244, 213, 34);
+            text-decoration: none;
+        }
+        a:active{
+            color: rgb(233, 21, 21);
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgb(21, 233, 21);
+            text-decoration: none;
+        }
+        p:first-child{
+            color: rgb(21, 233, 21);
+            background-color: rgb(233, 21, 21);
         }
         </style>
 </head>
 <body>
-   
-   <div class="red"> i am a div</div>
+   <div class="one"> i am a div
+    <p>i am a first</p>
+    </div>
+   <div class="red"> i am a div
+    <p>i am a paragraph</p>
+   </div>
    <div id="blue">i am second div</div>
+   <a href="https://www.google.com">GO to google</a>
+    <a href="https://www.facebook.com">GO to facebook</a>
 </body>
 </html>
