@@ -8,10 +8,13 @@
         :root{
             --color:blue;
             --seccolor: rgb(224, 201, 201);
+            --defpad:23px;
+            --defop:0.2;
         }
         *{
             margin: 0px;
             padding: 0px;
+           
         }
           .nav {
             background-color: var(--color);
@@ -20,8 +23,11 @@
             display: flex;
         }
         ul li{
+            opacity:var(--defop);
             list-style: none;
-            padding: 34px
+            padding: var(--defpad);
+
+            border: 2px solid var(--seccolor);
         }
         .container{
             background-color: var(--seccolor);
