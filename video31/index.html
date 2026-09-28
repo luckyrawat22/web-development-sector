@@ -8,12 +8,37 @@
         body{
         background-color: red;
         }
-        @media only screen and (max-width: 455px)
+        @media screen and (orientaton: landscape){
+            body{
+                border: 2px solid purple;
+            }
+        }
+        @media only screen and (max-width: 455px){
+            body{
+                background-color: rgb(18, 16, 159);
+            }
+            .boxes{
+                flex-direction: column;
+            }
+        }
+        .box{
+            width: 344px;
+            height:344px;
+            background-color: cyan;
+            padding: 3px;
+            margin: 3px;
+        }
+    
         </style>
 </head>
 <body>
     <div>
         Hey i am  a red guy
+    </div>
+    <div class="boxes">
+    <div class="box"> </div>
+    <div class="box"> </div>
+    <div class="box"> </div>
     </div>
 </body>
 </html>

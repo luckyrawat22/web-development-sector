@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS float and clear</title>
+    <style>
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+     
+     img{
+           float: left;
+     }
+     .card{
+        border: 2px solid red;
+     }
+     .card:nth-child(2){
+               background-color: aqua;
+               clear:right;
+               
+     }
+    </style>
+</head>
+<body>
+    <div class="cards">
+
+    <img src="https://www.boat-ed.com/blog/media/posts/138/responsive/big-yacht-on-the-water-md.jpeg" alt="" width="230">
+        <div class="class">
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda voluptatem dignissimos magnam nesciunt libero reprehenderit aliquid veniam delectus voluptates. Est nihil amet libero ducimus recusandae porro natus officia ipsam, voluptatum aperiam pariatur ut doloremque!
+            </p>
+        </div>
+        <div class="card">CARD2</div>
+  <div class="card">CARD3</div>  
+    </div>
+</body>
+</html>
