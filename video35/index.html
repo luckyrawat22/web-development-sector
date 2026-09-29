@@ -19,9 +19,29 @@
 
                    background-color: brown;
       } */
-       .box:nth-last-child(1){
+       /* .box:nth-last-child(1){
         background-color: blue;
-       }
+       } */
+        .boxes::before{
+            content: "harry is good";
+            color:aqua;
+        }
+        .boxes::after{
+            content: "sigma course is also good";
+            color:rgb(119, 119, 213)
+        }
+        ::selection{
+            background-color: black;
+            color: aqua;
+        }
+        .box::first-letter{
+            color:blueviolet;
+            font-size: 42px;
+        }
+        input::placeholder{
+            color:blue;
+            font-size: 11px;
+        }
     </style>
 
 </head>
@@ -30,6 +50,7 @@
         <div data-color="primary" class="box">heu i am a box</div>
         <div class="box">Hey I am a box</div>
         <div class="box">Hey I am a box</div>
+        <input type="text" placeholder="Type your name ">
     </div>
 </body>
 </html>
