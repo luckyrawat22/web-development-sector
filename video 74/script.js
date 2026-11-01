@@ -6,4 +6,6 @@
  button.addEventListener("contextmenu", ()=>{
     alert("Dont hack us by Right click PLease")
  })
- button.addEventListener("context")
+ document.addEventListener("keydown",(e)=>{
+ console.log(e,e.key,e.keyCode)
+ })
