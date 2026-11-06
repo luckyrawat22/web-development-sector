@@ -16,7 +16,7 @@ let prom1 = new Promise((resolve, reject) => {
 let prom2 = new Promise((resolve, reject) => {
     let a =Math.random();
     if(a>0.5){
-        resolve("No random number was not supporting you ");
+        resolve("No random number was not  the supporting you ");
     }
     else{
     setTimeout(() => {

@@ -9,7 +9,7 @@ setTimeout(() => {
 },0);
 console.log("The End");
 const fn= () => {
-    console.log("Nothing")
+    console.log("Nothing to say ")
 }
 const callback = (arg , fn) => {
     console.log(arg)
