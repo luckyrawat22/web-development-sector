@@ -14,6 +14,8 @@ async function sleep(){
 // let[x,y,rest]=[1,5,7,8,9,10]
 // console.log(x,y,rest)
 // })()
+//gjygygyigkugyl
+//gvtvjgvj
 let obj ={
     a:1,
     b:2,
